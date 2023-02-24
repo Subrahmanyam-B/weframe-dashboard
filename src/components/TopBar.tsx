@@ -59,7 +59,7 @@ const TopBar = (props: Props) => {
       </div>
 
       <div className="hidden xl:flex flex-row gap-6 text-[11px] font-semibold items-center text-slate-500 ">
-        <a className="cursor-pointer  hover:text-black transition-all duration-300">
+        <a className="cursor-pointer  text-black transition-all duration-300">
           Dashboard
         </a>
         <a className="cursor-pointer  hover:text-black transition-all duration-300">

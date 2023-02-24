@@ -4,6 +4,7 @@ import FileIcon from "@/assets/file_present.svg";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import AddCircle from "@/assets/add-button.svg";
 
 type Props = {
   tags: string[];
@@ -20,7 +21,7 @@ const Card = (props: Props) => {
     ToDo: "#DB2777",
     InProcess: "#9333EA",
     Development: "#DB2777",
-    Done: "#16A34A",
+    Done: "#00FF00",
     Other: "#2563EB",
   };
 
@@ -81,7 +82,7 @@ const Card = (props: Props) => {
 const Tag = (props: { color: string; title: string }) => {
   return (
     <div
-      className={`text-[${props.color}] bg-[#9333EA] bg-opacity-10 px-[8px] py-[5px] rounded-full flex text-[8px] items-center font-extrabold`}
+      className={`text-[${props.color}] bg-[#00FF00] bg-opacity-10 px-[8px] py-[5px] rounded-full flex text-[8px] items-center font-extrabold`}
     >
       {props.title}
     </div>
@@ -105,6 +106,7 @@ const People = (props: { people: string[] }) => {
           +{props.people.length - 2}
         </div>
       )}
+      <Image src={AddCircle} height={28} width={28} alt="add" className="translate-x-4"/>
     </div>
   );
 };

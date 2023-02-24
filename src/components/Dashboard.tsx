@@ -76,11 +76,11 @@ const Dashboard = (props: Props) => {
             initial="hidden"
             animate="show"
           >
-            <Card people={[Avatar6, Avatar4, Avatar5, Avatar6, Avatar4, Avatar5]} tags={["Backlog", "Done"]} title="Model Answer" />
-            <Card people={[Avatar8, Avatar4, Avatar5]} tags={["Backlog", "Done"]} title="Create calendar, chat and email app messages" />
-            <Card people={[Avatar3, Avatar9, Avatar5, Avatar6, Avatar4]} tags={["Backlog", "Done"]} title="Product Design, Figma, Sketch (Software), Prototype" />
-            <Card people={[Avatar4, Avatar7, Avatar5, Avatar6, Avatar4]} tags={["Backlog", "Done"]} title="Change email option process" />
-            <Card people={[Avatar9, Avatar4, Avatar5]} tags={["Backlog", "Done"]} title="Post launch reminder/ Post list" />
+            <Card people={[Avatar6, Avatar4, Avatar5, Avatar6, Avatar4, Avatar5]} tags={["Backlog", "#UI007"]} title="Model Answer" />
+            <Card people={[Avatar8, Avatar4, Avatar5]} tags={["#UI252", "Development","Backlog"]} title="Create calendar, chat and email app messages" />
+            <Card people={[Avatar3, Avatar9, Avatar5, Avatar6, Avatar4]} tags={["Development", "Design", "Backlog"]} title="Product Design, Figma, Sketch (Software), Prototype" />
+            <Card people={[Avatar4, Avatar7, Avatar5, Avatar6, Avatar4]} tags={["Project", "Backlog"]} title="Change email option process" />
+            <Card people={[Avatar9, Avatar4, Avatar5]} tags={["Project","Backlog"]} title="Post launch reminder/ Post list" />
             <AddButton />
           </motion.div>
         </motion.div>
@@ -113,10 +113,10 @@ const Dashboard = (props: Props) => {
             initial="hidden"
             animate="show"
           >
-            <Card people={[Avatar6, Avatar4, Avatar5, Avatar6, Avatar4, Avatar5]} tags={["Backlog", "Done"]} title="Model Answer" />
-            <Card people={[Avatar4, Avatar5, Avatar6]} tags={["Backlog", "Done"]} title="Add authentication pages" />
-            <Card people={[Avatar9, Avatar4, Avatar5, Avatar4, Avatar5]} tags={["Backlog", "Done"]} title="Profile Page Satructure" />
-            <Card people={[Avatar7, Avatar6, Avatar5]} tags={["Backlog", "Done"]} title="Create calendar, chat and email app pages" />
+            <Card people={[Avatar6, Avatar4, Avatar5, Avatar6, Avatar4, Avatar5]} tags={["Project", "To Do"]} title="Model Answer" />
+            <Card people={[Avatar4, Avatar5, Avatar6]} tags={["Design", "To Do"]} title="Add authentication pages" />
+            <Card people={[Avatar9, Avatar4, Avatar5, Avatar4, Avatar5]} tags={["#UI252", "To Do"]} title="Profile Page Satructure" />
+            <Card people={[Avatar7, Avatar6, Avatar5]} tags={["Development", "To Do"]} title="Create calendar, chat and email app pages" />
             <AddButton />
           </motion.div>
         </motion.div>
@@ -149,8 +149,8 @@ const Dashboard = (props: Props) => {
             initial="hidden"
             animate="show"
           >
-            <Card people={[Avatar9, Avatar4, Avatar5, Avatar4, Avatar5]} tags={["Backlog", "Done"]} title="Model Answer" />
-            <Card people={[Avatar3, Avatar9]} tags={["Backlog", "Done"]} title="Model Answer" />
+            <Card people={[Avatar9, Avatar4, Avatar5, Avatar4, Avatar5]} tags={["#UI324", "In Progress"]} title="Model Answer" />
+            <Card people={[Avatar3, Avatar9]} tags={["Design", "In Progress"]} title="Model Answer" />
             <AddButton />
           </motion.div>
         </motion.div>
@@ -180,11 +180,11 @@ const Dashboard = (props: Props) => {
             initial="hidden"
             animate="show"
           >
-            <Card people={[Avatar6, Avatar5, Avatar5, Avatar7, Avatar6, Avatar5]} tags={["Backlog", "Done"]} title="Model Answer" />
-            <Card people={[Avatar7, Avatar6, Avatar5]} tags={["Backlog", "Done"]} title="Create calendar, chat and email app pages" />
-            <Card people={[Avatar8, Avatar7, Avatar5,Avatar7, Avatar6]} tags={["Backlog", "Done"]} title="Product Design, Figma, Sketch (Software), Prototype" />
-            <Card people={[Avatar9, Avatar8, Avatar5 , Avatar7, Avatar6, Avatar5, Avatar7, Avatar6, Avatar5]} tags={["Backlog", "Done"]} title="Model Answer" />
-            <Card people={[Avatar3, Avatar9]} tags={["Backlog", "Done"]} title="Model Answer" />
+            <Card people={[Avatar6, Avatar5, Avatar5, Avatar7, Avatar6, Avatar5]} tags={["#BF102", "Done"]} title="Model Answer" />
+            <Card people={[Avatar7, Avatar6, Avatar5]} tags={["Design", "Done"]} title="Create calendar, chat and email app pages" />
+            <Card people={[Avatar8, Avatar7, Avatar5,Avatar7, Avatar6]} tags={["Project", "Done"]} title="Product Design, Figma, Sketch (Software), Prototype" />
+            <Card people={[Avatar9, Avatar8, Avatar5 , Avatar7, Avatar6, Avatar5, Avatar7, Avatar6, Avatar5]} tags={["#UI003", "Done"]} title="Model Answer" />
+            <Card people={[Avatar3, Avatar9]} tags={["#FTC01", "Done"]} title="Model Answer" />
             <AddButton />
           </motion.div>
         </motion.div>
