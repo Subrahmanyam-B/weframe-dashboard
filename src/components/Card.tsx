@@ -82,7 +82,7 @@ const Card = (props: Props) => {
 const Tag = (props: { color: string; title: string }) => {
   return (
     <div
-      className={`text-[${props.color}] bg-[${props.color}] bg-opacity-10 px-[8px] py-[5px] rounded-full flex text-[8px] items-center font-extrabold`}
+      className={`text-[${props.color}] bg-slate-300 bg-opacity-10 px-[8px] py-[5px] rounded-full flex text-[8px] items-center font-extrabold`}
     >
       {props.title}
     </div>
